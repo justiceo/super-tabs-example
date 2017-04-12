@@ -1,5 +1,7 @@
-<ion-tabs tabsPlacement="top">
-  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>
-  <ion-tab [root]="tab2Root" tabTitle="About" tabIcon="information-circle"></ion-tab>
-  <ion-tab [root]="tab3Root" tabTitle="Contact" tabIcon="contacts"></ion-tab>
-</ion-tabs>
+<ion-content>
+<super-tabs [rootNavCtrl]="navCtrl" [selectedTabIndex]="1"  height="100%">
+  <super-tab [tabRoot]="tab1Root" [title]="'Home'" [icon]="'home'"></super-tab>
+  <super-tab [tabRoot]="tab2Root" [title]="'About'" [icon]="'heart'"></super-tab>
+  <super-tab [tabRoot]="tab3Root" [title]="'Contact'" [icon]="'contacts'"></super-tab>
+</super-tabs>
+</ion-content>

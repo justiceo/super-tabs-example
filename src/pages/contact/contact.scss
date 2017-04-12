@@ -1,3 +1,12 @@
 page-contact {
-
+    img {
+        display: inline-block;
+        height: 40px;
+        margin-left: 20px;
+    }
+    ion-scroll {
+        white-space: nowrap;
+        min-height: 80px;
+        height: auto;
+    }
 }

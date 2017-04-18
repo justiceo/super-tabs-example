@@ -1,7 +1,7 @@
 <ion-content>
-<super-tabs [rootNavCtrl]="navCtrl" [selectedTabIndex]="1"  height="100%">
-  <super-tab [tabRoot]="tab1Root" [title]="'Home'" [icon]="'home'"></super-tab>
-  <super-tab [tabRoot]="tab2Root" [title]="'About'" [icon]="'heart'"></super-tab>
-  <super-tab [tabRoot]="tab3Root" [title]="'Contact'" [icon]="'contacts'"></super-tab>
+<super-tabs>
+  <super-tab [root]="tab1Root" title="'Home'" ></super-tab>
+  <super-tab [root]="tab2Root" title="'About'" ></super-tab>
+  <super-tab [root]="tab3Root" title="'Contact'" ></super-tab>
 </super-tabs>
 </ion-content>
